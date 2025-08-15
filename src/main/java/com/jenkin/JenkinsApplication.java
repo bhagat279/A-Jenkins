@@ -17,7 +17,7 @@ public class JenkinsApplication {
 		logger.info("App started .....");
 	}
 
-	public static void main(String[] args) {
+	public static main(String[] args) {
 		logger.info("App executed....");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
